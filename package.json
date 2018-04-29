@@ -1,0 +1,22 @@
+{
+  "name": "pagejs",
+  "version": "1.0.0",
+  "description": "Pruebas con page.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "page"
+  ],
+  "author": "John Serrano <jandreys15@gmail.com> (https://twitter.com/jandrey15)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "page": "^1.8.6",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}

@@ -1,0 +1,37 @@
+html
+  head
+    title!= title
+  body
+    h1!= message
+    p
+    ul
+      li
+        a(href="/") Home
+      li
+        a(href="#whou") #whouu
+      li
+        a(href="/about") /about
+      li
+        a(href="/user") /user
+      li
+        a(href="/user/jandrey15") /user/miusername
+      li
+        a(href="/user/jandrey15/edit") /user/edit
+      li
+        a(href="/no-found?hola=mundo") /no found
+    
+
+    h1 Profile
+    p
+    img(width='150')
+    ul
+      li
+        a(href='/profile/user/manny') Manny
+      li
+        a(href='/profile/user/glottis') Glottis
+      li
+        a(href='/profile/user/sal') Sal
+    a#cycle(href='#') Cycle through users
+    
+    script(type='application/javascript' src='https://cdn.rawgit.com/visionmedia/page.js/master/page.js')
+    script(type='application/javascript' src='/page.js')
