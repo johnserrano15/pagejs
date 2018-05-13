@@ -4,8 +4,8 @@ const app = express();
 const port = 8080;
 
 app.set('view engine', 'pug');
-// app.use(express.static('public'));
-app.use(express.static('./'));
+app.use(express.static('public'));
+// app.use(express.static('./'));
 
 app.get('/', function (req, res) {
   res.render('index', { title: 'Uso de pagejs', message: 'Hello there!'});

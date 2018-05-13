@@ -4,7 +4,8 @@
   "description": "Pruebas con page.js",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "nodemon": "nodemon server.js",
+    "start": "start gulp watch && node server.js"
   },
   "keywords": [
     "page"
@@ -17,6 +18,11 @@
     "pug": "^2.0.3"
   },
   "devDependencies": {
-    "nodemon": "^1.17.3"
+    "browserify": "^16.2.2",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "nodemon": "^1.17.3",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.0"
   }
 }
